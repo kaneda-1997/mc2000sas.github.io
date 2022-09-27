@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+/*Posizione del testo*/
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+/*Testo sx*/
+
+h1 {
+  color: black;
+  font-family: roboto;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1.5;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 550px;
+  font-family: 'Roboto';
+}
+
+/*margin left distanza verticale testo sx-dx*/
+
+h1 span {
+  font-size: 50px;
+  margin-left: auto;
+}
+
+/*Barra animata*/
+
+.message {
+  background-color: #E9DF85;
+  color: #333;
+  display: block;
+  font-weight: 500;
+  overflow: hidden;
+  position: absolute;
+  padding-left: 0.5rem;
+  top: 0.2rem;
+  left: 1.8em;
+  animation: openclose 5s ease-in-out infinite;
+  font-family: 'Roboto';
+}
+
+.word1, .word2, .word3 {
+  font-family: 'Roboto';
+}
+
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  15% {
+    width: 230px;
+  }
+  30% {
+    top: 0.2rem;
+    width: 230px;
+  }
+  33% {
+    top: 0.2rem;
+    width: 0;
+  }
+  35% {
+    top: 0.2rem;
+    width: 0;
+  }
+  38% {
+    top: -4.5rem;
+    
+  }
+  48% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  62% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  66% {
+    top: -4.5rem;
+    width: 0;
+    text-indent: 0;
+  }
+  71% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  86% {
+    top: -9rem;
+    width: 285px;
+  }
+  95% {
+    top: -9rem;
+    width: 285px;
+  }
+  98% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  100% {
+    top: 0;
+    width: 0;
+    text-indent: 0;
+  }
+}
