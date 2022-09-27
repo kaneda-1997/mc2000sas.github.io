@@ -1,6 +1,4 @@
 
-@import url('http://fonts.cdnfonts.com/css/black-rotela-free-personal');
-
 
 html{
     height: 100%;
@@ -702,7 +700,7 @@ h4 {
 }
 
 .image3{
-  background-image: url("https://www.architetturaincasa.it/wp-content/uploads/cerveteriP03-1-1024x693.png");
+  background-image: url("immagini/prog4.jpg");
   border-radius: 1rem 1rem 0 0;
   height: 10rem;
   background-color: #000;
@@ -711,7 +709,7 @@ h4 {
 }
 
 .image4{
-  background-image: url("https://www.architetturaincasa.it/wp-content/uploads/cerveteriP03-1-1024x693.png");
+  background-image: url("immagini/prog4.jpg");
   border-radius: 1rem 1rem 0 0;
   height: 10rem;
   background-color: #000;
@@ -720,7 +718,7 @@ h4 {
 }
 
 .image5{
-  background-image: url("https://www.architetturaincasa.it/wp-content/uploads/cerveteriP03-1-1024x693.png");
+  background-image: url("immagini/prog4.jpg");
   border-radius: 1rem 1rem 0 0;
   height: 10rem;
   background-color: #000;
