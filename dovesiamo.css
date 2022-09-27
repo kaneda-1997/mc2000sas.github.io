@@ -562,7 +562,7 @@ body {
 }
 
 .big{
- font-size: 37px;
+ font-size: 40px;
 }
 
 @media screen and (max-width: 1250px) {
@@ -570,7 +570,7 @@ body {
 	margin-top: 1cm;
     font-size: 15px;      
   }
-  .big{font-size: 35px;}
+  .big{font-size: 25px;}
 }
 
 /*fading text*/
