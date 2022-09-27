@@ -1,5 +1,4 @@
 
-@import url('http://fonts.cdnfonts.com/css/black-rotela-free-personal');
 
 // SASS Variables.
 
@@ -37,14 +36,13 @@ canvas {
 }
 .animated-title {
 	
-font-family: 'Black Rotela Free Personal', sans-serif;
+font-family: sans-serif;
 
 
   background-clip: text;
   color: yellow;
   z-index: 100;
     background-repeat: no-repeat;
-
   height: 90vmin;
   left: 50%;
   position: absolute;
