@@ -8,7 +8,6 @@
 	--outline-width: 0px;
 }
 
-@import url('http://fonts.cdnfonts.com/css/black-rotela-free-personal');
 
 canvas {
   display: block;
@@ -28,7 +27,7 @@ canvas {
 }
 .animated-title {
 	
-font-family: 'Black Rotela Free Personal', sans-serif;
+font-family: sans-serif;
 
 
   background-clip: text;
