@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:ital,wght@1,700&family=Roboto:wght@300&display=swap');
+
 // SASS Variables.
 
 :root {
@@ -34,7 +36,7 @@ font-family: sans-serif;
   color: yellow;
   z-index: 100;
     background-repeat: no-repeat;
-
+font-family: 'Dancing Script', cursive;
   height: 90vmin;
   left: 50%;
   position: absolute;
