@@ -28,10 +28,6 @@ canvas {
   100% { transform: translate3d(0, 0, 0); }
 }
 .animated-title {
-	
-font-family: sans-serif;
-
-
   background-clip: text;
   color: yellow;
   z-index: 100;
