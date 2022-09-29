@@ -58,7 +58,7 @@ font-family: 'Dancing Script', cursive;
   width: 100%;
 }
 .animated-title > div div {
-  font-size: 12vmin;  color: yellow;
+  font-size: 10vmin;  color: yellow;
 
   padding: 2vmin 0;
   position: absolute;
